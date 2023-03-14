@@ -1,0 +1,339 @@
+[
+    {
+        "name":"Service Lines",
+        "BU":[{
+            "name":"SalesForce_Practice_APAC",
+            "DU":["SFDU_APAC_Strategic",
+            "SFDU_APAC_DU2",
+            "SF_APAC_Others",
+            "SFDU_APAC_DU1",
+            "SF_APAC_BUOps"]
+            },
+        {
+            "name":"SalesForce_Practice_US",
+            "DU":["SFDU_US_HiTech",
+           " SFDU_US_HealthCar",
+            "SFUS LS_Pharma_MedDevices DU",
+            "SF_US_Others DU",
+            "SF US_BU Ops_DU",
+            "SF US_BU Pool_DU"]
+        },
+        {
+            "name":"Intelligent Business Automation",
+            "DU":["IBA DU1",
+            "IBA DU5",
+            "IBA DU2",
+           " IBA DU4",
+            "IBA DU6",
+            "IBA_Enablers",
+            "IBA DU3"]
+        },
+        {
+            "name":"Data Hitech Telecom Emerging",
+            "DU":["Data Services 2",
+            "Data Services 1",
+            "Data Hitech Telecom Emerging BU Ops"]
+        },
+        {
+            "name":"Data Platform Engineering",
+            "DU":["Data Platform Engg 1",
+            "Data Platform Engg 2"]
+        },
+        {
+            "name":"Cloud Practice",
+            "DU":["Cloud Practice DU1",
+            "Cloud Solutions",
+            "Cloud Practice DU2",
+            "Cloud Practice BU Ops",
+            "Cloud Practice BU Pool"]
+        },
+        {
+            "name":"Integration Practice",
+            "DU":[
+            "Integration Practice_DU 1",
+            "Integration Practice NA",
+            "Integration Practice_DU 2",
+            "Integration Practice Center of Excellence",
+            "Integration Practice APJ",
+            "Integration Practice BU O"]
+        },
+        {
+            "name":" Data HLS",
+            "DU":[
+            "Integration Practice_DU 1",
+            "Integration Practice NA",
+            "Integration Practice_DU 2",
+            "Integration Practice Center of Excellence",
+            "Integration Practice APJ",
+            "Integration Practice BU O"]
+        },{
+            "name":"Infra Management Practice",
+            "DU":[
+                "IT Operations Practice_DU",
+                "Tango IT Operation",
+               " Onclusive IT Operation",
+                "IT Operations Practice_DU_Ops"]
+        },
+        {
+            "name":"Data BFSI",
+            "DU":[
+                "IT Operations Practice_DU",
+                "Tango IT Operation",
+               " Onclusive IT Operation",
+                "IT Operations Practice_DU_Ops"]
+        },
+        {
+            "name":"Security Practice",
+            "DU":[
+                "Security DU1",
+                "Security DU3",
+                "Security DU2",
+                "Security BU Ops",
+                "Security Solutions"]
+        },
+        {
+            "name":"GOI",
+            "DU":["Adaptive Cybersecurity DU"]
+        },
+        {
+            "name":"Data Competency BU",
+            "DU":["MDM Competency DU",
+            "ML Competency DU",
+            "Data Architects DU",
+            "Data Competency_BUOps"]
+        },
+        {
+            "name":" SalesForce_Practice_Global",
+            "DU":[
+            "SF Global BA_DU",
+            "SF Global Architects_DU",
+            "SF Global Solutions_DU",
+            "SF Global BU Ops_DU"]
+        },
+        {
+            "name":"Green House",
+            "DU":[
+              "User Experience and Visual Designs",
+               " Technical Communications",
+                "GreenHouse BU Ops"]
+        }
+    ]},
+    {
+        "name":"HLS OU",
+            "BU":[{
+            "name":"HLS_SIMD BU",
+            "DU":["HLS_SIMD_Agilent_DU",            
+            "HLS_SIMD_ThermoFisher_DU",
+            "HLS_SIMD_DU_1",
+            "HLS_SIMD_DU_2",
+            "HLS_SIMD_DU_3",
+            "HLS_SIMD_Grenoble_DU",            
+            "HLS_SIMD_BUOps"]
+        },    
+        {
+            "name":"HLS_Payers Providers",
+            "DU":["HLS_Clinical HealthCare DU",
+            "HLS_Clinical HC BU Ops"]
+        },
+        {
+            "name":"HLS_Pharma BU",
+            "DU":["HLS_Pharma_DU_1",
+            "HLS_Pharma_DU_2",
+            "HLS_Pharma BUOps1"]
+        },
+        {
+            "name":"HLS BU Ops",
+            "DU":["HLS BU Ops1"]
+        }]    
+    }, 
+    {
+        "name":"CMT",
+        "BU":[{
+            "name":"Software and Hitech",
+            "DU":["SnH_Platforms and Product Engg",
+            "SnH_Product Modernization",
+            "SnH_Incubation Services",
+            "SnH_Digital Engineering",
+            "SnH_Enterprise Applications",
+            "Dormant"]
+        },
+        {
+            "name":"Enterprise Technologies",
+            "DU":["ET_Product Modernization",
+           "ET_Platform and Product Engg",
+            "ET_Digital Engineering",
+            "ET_Enterprise Applications",
+            "EntTech BU_Ops"]
+        },
+        {
+            "name":"Communications and Media",
+            "DU":["Telecom_CSP",
+           "Telecom_Cisco",
+            "Telecom_Communications",
+            "TM_BU_Ops"]
+        },
+        {
+            "name":"IBM Cloud and Security",
+            "DU":["IBM Security_DU1",
+           "IBM_Cloud_DU1",
+            "IBM Security_DU2",
+            "Kyndryl_Cloud_DU1",
+            "IBM_CldSec BUOps"]
+        },
+        {
+            "name":"IBM Data and Engg Services",
+            "DU":["IBM_Analytics DU1",
+           "IBMNetezza_DU",
+            "IBMMDM_DU1",
+            " Industrial Services DU1",
+            "PLM DU1",
+            "Watson_Health"]
+        },
+        {
+            "name":"Accelerite BU",
+            "DU":["Accelerite Assignment_DU",
+            "SureEdge DU",
+            "Actifio_DU",
+            "Incubation",
+            "Software AG",
+            "EndpointDU",
+            "Rovius Cloud_DU",
+            "Ivanti PLM",
+            "Accelerite common Support_DU",
+            "Cloud and Platform Services_DU",
+            "Rovius_Cloud_Support"]
+            },   
+        {
+            "name":"IBM_Products",
+            "DU":["Engg Services 1",
+            "Engg Services 2",
+            "IBM_APM_DU",
+            "IBM TNC DU",
+            "IBM_PRD_DU"]
+        },
+        {
+            "name":"SAG BU",
+            "DU":["SAG EMEA_ROW PS",
+            "SAG NA PS",
+            "Stream Set PS"]
+        },
+        {
+            "name":"IBM Sales BU",
+            "DU":["IBM North America Sales"]
+        },
+        {
+            "name":"CMT OU Ops",
+            "DU":["CMT OU Ops DU"]
+        },
+        {
+            "name":"Telecom_Sales",
+            "DU":["Telecom_Sales_DU"]
+        }
+        ]    
+    },
+    {
+        "name": "BFSI",
+        "BU":[{
+        "name": "Insurance BU",
+        "DU":["Insurance Crawford",
+        "Insurance Savings",
+        "Insurance_DU1",
+        "InsuranceBU_Ops1",
+        "Insurance Solutions"]
+        },
+        
+        {
+        "name": "Financial Services Product_Engineering",
+        "DU":[
+        "FinTech ISV",
+        "FinTech Intuit",
+        "FinTechBU_Ops1"
+        ]
+        },
+        
+        {
+        "name": "Digital Banking",
+        "DU":[
+        "Banking and Capital Market DU",
+        "Digital Banking DU"
+        ]
+        },
+        
+        {
+        "name": "Banking and Capital Market",
+        "DU":[
+        "BCM APAC",
+        "BCM WF WFIS",
+        "BCM WF Onsite",
+        "BCMBU_Ops1"
+        ]
+        },
+        
+        {
+        "name": "BFSI Payment",
+        "DU":[
+        "BFSIPayments DU"
+        ]
+        },
+        
+        {
+        "name": "APAC Sales BU",
+        "DU":[
+        "APAC Sales_DU"
+        ]
+        },
+        
+        {
+        "name": "BFSI Sales BU",
+        "DU":[
+        "BFSI West DU"
+        ]
+        }
+        ]
+        },
+        {
+            "name": "Industry",
+            "BU":[{
+            "name": "Corporate CTO_Organization",
+            "DU":["CTOInnovH3",
+            "CTOPCIH3",
+            "Life_Sciences_Research"]
+            },
+            
+            {
+            "name": "Presales",
+            "DU":[
+            "PresalesDU"
+            ]
+            },
+            
+            {
+            "name": "Tools and Transformation BU",
+            "DU":[
+            "Tools and Transformation_DU"
+            ]
+            },
+            
+            {
+            "name": "SalesForce Practice_US",
+            "DU":[
+            "SFDC_DU_US_HiTech"
+            ]
+            },
+            
+            {
+            "name": "PES2",
+            "DU":[
+            "PES_DU6"
+            ]
+            },
+            
+            {
+            "name": "SalesForce Practice_APAC",
+            "DU":[
+            "SFDC_DU_APAC_Strateg"
+            ]
+            }]
+            }
+            
+]
