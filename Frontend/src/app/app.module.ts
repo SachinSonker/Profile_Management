@@ -8,7 +8,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSelectModule} from '@angular/material/select';
 import { HttpClientModule } from '@angular/common/http';
-
 import { LoginComponentComponent } from './login-component/login-component.component';
 import { ProfileViewComponentComponent } from './profile-view-component/profile-view-component.component';
 import { ListViewComponetComponent } from './list-view-component/list-view-componet.component';

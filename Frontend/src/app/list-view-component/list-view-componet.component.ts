@@ -5,6 +5,7 @@ import FilterData from 'src/app/filter.json';
 import data from 'src/app/Model/data';
 import { EmployeelistService } from '../employeelist.service';
 import { ActivatedRoute } from '@angular/router';
+import {Router} from '@angular/router';
 
 interface filterData{
   name:string;
@@ -47,6 +48,7 @@ export class ListViewComponetComponent implements OnInit {
   constructor(
     private employeeservice:EmployeelistService,
     private route:ActivatedRoute,
+    private router:Router
 
   ) { }
 
@@ -107,5 +109,10 @@ export class ListViewComponetComponent implements OnInit {
   })
   // console.log(this.DUlist);
 }
+navigate(){
+  //do your any operations
+  this.router.navigate(['./profile-view']);
+ 
+  }
 
 }
