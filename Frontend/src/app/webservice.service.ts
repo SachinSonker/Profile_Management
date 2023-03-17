@@ -6,12 +6,12 @@ import { HttpClient } from '@angular/common/http';
 })
 export class WebserviceService {
 
-  readonly ROOT_URL;
-  constructor(private http:HttpClient) {
-    this.ROOT_URL="http://localhost:8090"
-   }
+readonly ROOT_URL;
+constructor(private http:HttpClient) {
+this.ROOT_URL="http://localhost:8090";
+}
 
-   get(uri:string){
-    return this.http.get(`${this.ROOT_URL}/${uri}`);
-  } 
+post(uri:string,payload:Object){
+  return this.http.post(`${this.ROOT_URL}/${uri}`,payload);
+ }
 }

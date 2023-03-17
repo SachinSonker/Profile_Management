@@ -1,38 +1,28 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MatCardModule, MatButtonModule, MatSidenavModule } from '@angular/material';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {MatIconModule} from '@angular/material/icon';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatSelectModule} from '@angular/material/select';
-import { HttpClientModule } from '@angular/common/http';
-import { LoginComponentComponent } from './login-component/login-component.component';
-import { ProfileViewComponentComponent } from './profile-view-component/profile-view-component.component';
-import { ListViewComponetComponent } from './list-view-component/list-view-componet.component';
-import { EditProfileComponentComponent } from './edit-profile-component/edit-profile-component.component';
-
+import { HeaderComponent } from './header/header.component';
+import { FormComponent } from './form/form.component';
+//import {FormsModule} from '@angular/forms';
+import { ForgetPasswordComponent } from './forget-password/forget-password.component';
+//import {HttpClientModule } from '@angular/common/http';
+//import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponentComponent,
-    ProfileViewComponentComponent,
-    ListViewComponetComponent,
-    EditProfileComponentComponent,
+    HeaderComponent,
+    FormComponent,
+   // FormsModule,
+    ForgetPasswordComponent
+    //HttpClientModule
+   // MatButtonModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    MatButtonModule,
-    MatCardModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatSelectModule,
-    MatToolbarModule,
-    HttpClientModule
-
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

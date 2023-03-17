@@ -1,0 +1,63 @@
+
+
+h3{
+
+    color:white;
+
+}
+
+header{
+
+    background-color:#4a494f;
+
+    padding: 0px;
+
+    margin:-7.7px;
+
+    height: 3.5em;
+
+
+
+    /* display: flex; */
+
+}
+
+h1{
+
+    padding: 1em;
+
+    font-weight: bold;
+
+}
+
+.container {
+
+    display: flex;
+
+    align-items: center;
+
+    margin: 0 10px;
+
+    height:3.5em;
+
+}
+
+.logo{
+
+    display: flex;
+
+    align-items: center;
+
+    color:white
+
+}
+
+
+
+#title{
+
+    position: absolute;
+
+    margin-left: 29em ;
+
+}
